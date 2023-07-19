@@ -26,7 +26,7 @@ class CalculatorFacade {
         }else if(receiveOperate=="*"){
             println("${receiveNum}*${receiveNum2}=${mul}")
         }else if(receiveOperate=="/"){
-            println("${receiveNum}/${receiveNum2}=${sub}")
+            println("${receiveNum}/${receiveNum2}=${div}")
         }else {
             println("연산자를 다시 입력해주세요.")
         }
