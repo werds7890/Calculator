@@ -1,7 +1,7 @@
 package com.example.calculator.Level4
 
 abstract class AbstractOperation() {
-    abstract fun calculateNum() : Int
+    abstract fun calculateNum() : String
 
     fun addDescription() {
         println("더하기 값 : ")
